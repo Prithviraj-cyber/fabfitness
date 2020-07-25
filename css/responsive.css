@@ -1,0 +1,471 @@
+@media only screen and (max-width: 767px)
+{
+	.navbar-brand img
+	{
+		height: 3rem;
+		width: 8rem;
+		margin-left: 5%;
+	}
+
+	.navbar-nav
+	{
+		padding-left: 0% !important;
+	}
+
+	.nav-item .nav-link
+	{
+		padding: 10px 25px !important;
+		margin-top: 2px;
+		font-size: 1rem;
+		color: #212121 !important;
+		border-radius: 0px;
+		text-align: center;
+	}
+
+	/*--------------------------header--------------------*/
+	.logo h1
+	{
+		font-size: 25px;
+	}
+
+	.image img
+	{
+		top: 8%;
+		right: 15%;
+		height: 500px;
+		width: 350px;
+		filter: brightness(0.5);
+	}
+
+	.text
+	{
+		top: 25%;
+		left: 18%;
+		max-width: 500px;
+	}
+
+	.text h6
+	{
+		font-size: 20px;
+	}
+
+	.text p
+	{
+		margin: 5px 0px;
+		font-size: 15px;
+		line-height: 28px;
+	}
+
+	.text h2
+	{
+		color: #e2e2e2;
+		font-size: 40px;
+		font-weight: bolder;
+	}
+
+	/*--------------------featured------------------*/
+	.featured
+	{
+		padding: 2rem 0;
+	}
+
+	.featured h1
+	{
+		font-size: 1.5rem;
+		letter-spacing: 1px;
+	}
+
+	.featured-box
+	{
+		margin-top: 2rem;
+	}
+
+	/*-------------------------------section 3----------------------*/
+	#gym
+	{
+		padding: 3rem 0;
+	}
+
+	.gym-detail
+	{
+		margin-top: 0rem;
+	}
+
+	.gym-detail h1
+	{
+		font-size: 2rem;
+	}
+
+	.gym-detail h2
+	{
+		font-size: 2rem;
+	}
+
+	.gym-detail p
+	{
+		font-size: 15px;
+	}
+
+	.gym-img img
+	{
+		margin-top: 3rem;
+	}
+
+	/*-------------------------bmi------------------*/
+	.bmi-calculator
+	{
+		padding: 2rem 0;
+	}
+
+	.bmi-chart h1
+	{
+		font-size: 1.9rem;
+	}
+
+	table
+	{
+	  	width: 100%;
+	  	margin-top: 1.5rem;
+	}
+
+	table tr th
+	{
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+
+	table tr td
+	{
+		font-size: 15px;
+	}
+
+	.bmi .bmi-form h1
+	{
+		font-size: 1.9rem;
+		margin-top: 1.5rem;
+	}
+
+	.bmi-form p
+	{
+		font-size: 15px;
+		margin-top: 1rem;
+	}
+
+	.bmi-input
+	{
+		margin-bottom: 10px;
+	}
+
+	output
+	{
+		padding: 0px;
+	}
+
+	/*-----------------------------testimonial-----------------*/
+	.testimonial-detail
+	{
+		padding: 2rem 0;
+	}
+
+	.testimonial-detail h1
+	{
+		font-size: 1.5rem;
+	}
+
+	.testimonial
+	{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .testimonial .pic
+    {
+        display: block;
+        position: static;
+        margin: 0 auto 15px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and  (max-width: 991px)
+{
+	.navbar-brand img
+	{
+		height: 4rem;
+		width: 14rem;
+		margin-left: 5%;
+	}
+
+	.navbar-nav
+	{
+		padding-left: 0% !important;
+	}
+
+	.nav-item .nav-link
+	{
+		padding: 10px 25px !important;
+		margin-top: 2px;
+		font-size: 1rem;
+		color: #212121 !important;
+		border-radius: 0px;
+		text-align: center;
+	}
+
+	/*--------------------------header--------------------*/
+	.logo h1
+	{
+		font-size: 30px;
+	}
+
+	.image img
+	{
+		top: 8%;
+		right: 15%;
+		height: 500px;
+		width: 350px;
+		filter: brightness(0.5);
+	}
+
+	.text
+	{
+		top: 30%;
+		left: 18%;
+		max-width: 500px;
+	}
+
+	.text h6
+	{
+		font-size: 25px;
+	}
+
+	.text p
+	{
+		margin: 5px 0px;
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.text h2
+	{
+		color: #e2e2e2;
+		font-size: 40px;
+		font-weight: bolder;
+	}
+
+	/*--------------------featured------------------*/
+	.featured
+	{
+		padding: 2.5rem 0;
+	}
+
+	.featured h1
+	{
+		font-size: 1.5rem;
+		letter-spacing: 1px;
+	}
+
+	.featured-box
+	{
+		margin-top: 2rem;
+	}
+
+	.featured-box img
+	{
+		width: 100%;
+		height: 25vh;
+	}
+
+	.f-box h3
+	{
+		font-size: 1rem;
+	}
+
+	.f-box p
+	{
+		font-size: 13px;
+	}
+
+	/*-------------------------------section 3----------------------*/
+	#gym
+	{
+		padding: 3rem 0;
+	}
+
+	.gym-detail
+	{
+		margin-top: 0rem;
+	}
+
+	.gym-detail h1
+	{
+		font-size: 2rem;
+	}
+
+	.gym-detail h2
+	{
+		font-size: 2rem;
+	}
+
+	.gym-detail p
+	{
+		font-size: 15px;
+	}
+
+	.gym-img img
+	{
+		margin-top: 3rem;
+	}
+
+	/*-------------------------bmi------------------*/
+	.bmi-calculator
+	{
+		padding: 2rem 0;
+	}
+
+	.bmi-chart h1
+	{
+		font-size: 1.9rem;
+	}
+
+	table
+	{
+	  	width: 100%;
+	  	margin-top: 1.5rem;
+	}
+
+	table tr th
+	{
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+
+	table tr td
+	{
+		font-size: 15px;
+	}
+
+	.bmi .bmi-form h1
+	{
+		font-size: 1.9rem;
+	}
+
+	.bmi-form p
+	{
+		font-size: 15px;
+		margin-top: 0.5rem;
+	}
+
+	.bmi-input
+	{
+		margin-bottom: 5px;
+	}
+
+	output
+	{
+		padding: 0.5rem;
+	}
+
+	/*-----------------------------testimonial-----------------*/
+	.testimonial-detail
+	{
+		padding: 3rem 0;
+	}
+
+
+}
+
+@media only screen and (min-width: 992px) and  (max-width: 1199px)
+{
+
+	.navbar-brand img
+	{
+		height: 3rem;
+		width: 8rem;
+		margin-left: 5%;
+	}
+
+	.navbar-nav
+	{
+		padding-left: 0% !important;
+	}
+
+	.nav-item .nav-link
+	{
+		padding: 10px 25px !important;
+		margin-top: 2px;
+		font-size: 12px;
+		color: #212121 !important;
+		border-radius: 3px;
+		text-align: center;
+	}
+
+	/*--------------------------header--------------------*/
+	.logo h1
+	{
+		font-size: 30px;
+	}
+
+	.image img
+	{
+		top: 8%;
+		right: 15%;
+		height: 500px;
+		width: 350px;
+		filter: brightness(0.5);
+	}
+
+	.text
+	{
+		top: 30%;
+		left: 18%;
+		max-width: 500px;
+	}
+
+	.text h6
+	{
+		font-size: 25px;
+	}
+
+	.text p
+	{
+		margin: 5px 0px;
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.text h2
+	{
+		color: #e2e2e2;
+		font-size: 40px;
+		font-weight: bolder;
+	}
+
+
+}
+
+@media only screen and (min-width: 1200px) and  (max-width: 1445px)
+{
+	.navbar-brand img
+	{
+		height: 4rem;
+		width: 12rem;
+		margin-left: 5%;
+	}
+
+	.navbar-nav
+	{
+		padding-left: 0% !important;
+	}
+
+	.nav-item .nav-link
+	{
+		padding: 10px 25px !important;
+		margin-top: 2px;
+		font-size: 16px;
+		color: #212121 !important;
+		border-radius: 3px;
+		text-align: center;
+	}
+
+}
