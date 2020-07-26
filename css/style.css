@@ -56,13 +56,13 @@ a
 
 .nav-item .nav-link:hover
 {
-	background-color: #ff0066;
+	background-color: #2666ff;
 	color: #fff!important;
 }
 
 .active .nav-link
 {
-	background-color: #ff0066;
+	background-color: #2666ff;
 	color: #fff!important;
 }
 
@@ -70,17 +70,21 @@ a
 
 .header .container
 {
-	background: rgba(0,0,0,1);
-	min-height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(../img/slider.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 85vh;
 	position: relative;
 	min-width: 100% !important;
 }
 
 .background
 {
-	background: #cf0039;
-	height: 100vh;
-	clip-path: polygon(50% 0%,0 100%,100% 0);
+	background: transparent;
+	opacity: 0.5;
+	background-color: #000;
+	height: 85vh;
+	min-width: 100%!important;
 }
 
 .logo
@@ -98,7 +102,7 @@ a
 
 .logo h1 b
 {
-	color: #c70039;
+	color: #2666ff;
 }
 
 .image img
@@ -113,7 +117,7 @@ a
 .text
 {
 	position: absolute;
-	top: 34%;
+	top: 30%;
 	left: 18%;
 	max-width: 550px;
 	box-sizing: border-box;
@@ -133,6 +137,7 @@ a
 	text-shadow: 1px 1px rgba(0,0,0,0.7);
 	font-size: 20px;
 	line-height: 28px;
+	text-align: justify;
 }
 
 .text h2
@@ -144,8 +149,7 @@ a
 
 span
 {
-	color: #ff0049;
-	text-shadow: -1px 0px 2px rgba(255,255,255,0.7);
+	color: #2666ff;
 }
 
 .text button
@@ -166,7 +170,7 @@ span
 
 .text button:hover
 {
-	background: #ff0049;
+	background: #2666ff;
 	color: #e2e2e2;
 }
 
@@ -174,7 +178,7 @@ span
 {
 	position: absolute;
 	bottom: 13%;
-	left: 2%;
+	right: 4%;
 }
 
 .icons a
@@ -182,29 +186,29 @@ span
 	height: 40px;
 	width: 40px;
 	border-radius: 50%;
-	border: 2px solid #ff0049;
+	border: 2px solid #2666ff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: transparent;
 	box-sizing: border-box;
-	transition: 1s;
+	transition: 0.5s;
 	margin: 10px 0;
 }
 
 .icons a i
 {
-	color: #ff0049;
+	color: #2666ff;
 }
 
 .icons a:hover i
 {
-	color: rgba(0,0,0,1);
+	color: #fff;
 }
 
 .icons a:hover
 {
-	background: #ff0049;
+	background: #2666ff;
 }
 
 /*---------------------------------featured classes------------------------*/
@@ -228,7 +232,7 @@ span
 	display: block;
 	height: 3px;
 	width: 150px;
-	background: #ff0049;
+	background: #2666ff;
 	margin: 1rem auto;
 }
 
@@ -304,7 +308,7 @@ span
 {
 	font-size: 10px;
 	padding: 5px;
-	color: #ff0049;
+	color: #2666ff;
 }
 
 .f-box p
@@ -339,7 +343,7 @@ span
 {
 	font-weight: bolder;
 	font-size: 2.5rem;
-	color: #ff0049;
+	color: #2666ff;
 }
 
 .gym-detail p
@@ -351,7 +355,7 @@ span
 
 .gym-detail a
 {
-	background-color: #ff0049;
+	background-color: #2666ff;
 	color: #fff;
 	padding: 10px 30px;
 }
@@ -413,7 +417,7 @@ table tr th
 	font-weight: bolder;
 	letter-spacing: 2px;
 	color: #fff;
-	background-color: #ff0049;
+	background-color: #2666ff;
 }
 
 table tr td
@@ -470,7 +474,7 @@ table tr td
   	width: 100%;
   	height: 40px;
   	outline: none;
-  	border: 1px solid #ff0049;
+  	border: 1px solid #2666ff;
   	border-radius: 2px;
   	font-weight: 400;
   	font-size: 12pt;
@@ -478,7 +482,7 @@ table tr td
   	-webkit-appearance: none;
   	appearance: none;
   	-moz-appearance: none;
-  	border: 1px solid #ff0049;
+  	border: 1px solid #2666ff;
   	padding-left: 5px;
 }
 
@@ -494,7 +498,7 @@ output
 	margin-top: 1rem;
 	height: 100px;
 	width: 240px;
-	border: 1px solid #ff0049;
+	border: 1px solid #2666ff;
 	text-align: center;
 	padding: 0.5rem;
 }
@@ -520,7 +524,7 @@ output
 	display: block;
 	height: 3px;
 	width: 150px;
-	background: #ff0049;
+	background: #2666ff;
 	margin: 1rem auto;
 }
 
@@ -532,7 +536,7 @@ output
 
 .testimonial
 {
-    border-right: 4px solid #ff0049;
+    border-right: 4px solid #2666ff;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     padding: 30px 30px 30px 130px;
     margin: 0 15px 30px 15px;
@@ -546,7 +550,7 @@ output
     position: absolute;
     bottom: -4px;
     left: -17px;
-    border-top: 25px solid #ff0049;
+    border-top: 25px solid #2666ff;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
     transform: rotate(45deg);
@@ -558,7 +562,7 @@ output
     position: absolute;
     top: -4px;
     left: -17px;
-    border-top: 25px solid #ff0049;
+    border-top: 25px solid #2666ff;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
     transform: rotate(135deg);
@@ -598,7 +602,7 @@ output
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #ff0049;
+    color: #2666ff;
     margin: 0;
 }
 
@@ -606,13 +610,13 @@ output
 {
     display: inline-block;
     font-size: 17px;
-    color: #ff0049;
+    color: #2666ff;
     font-style:italic;
 }
 
 .owl-theme .owl-controls .owl-page span
 {
-    border: 2px solid #ff0049;
+    border: 2px solid #2666ff;
     background: #fff !important;
     border-radius:0 !important;
     opacity: 1;
@@ -621,8 +625,8 @@ output
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls .owl-page:hover span
 {
-    background: #ff0049 !important;
-    border-color:#ff0049;
+    background: #2666ff !important;
+    border-color:#2666ff;
 }
 
 /*--------------------------footer------------------------*/
@@ -657,7 +661,7 @@ output
 .footer-detail h2
 {
 	font-size: 1.5rem;
-	color: #ff0049;
+	color: #2666ff;
 	font-weight: bolder;
 	letter-spacing: 1px;
 }
@@ -686,13 +690,13 @@ output
 
 .footer-detail li a:hover
 {
-	color: #ff0049;
+	color: #2666ff;
 }
 
 .footer-detail li i
 {
 	font-size: 1.5rem;
-	color: #ff0049;
+	color: #2666ff;
 	margin: 0 5px;
 }
 

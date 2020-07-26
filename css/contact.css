@@ -1,0 +1,196 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.contact-text
+{
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/poster4.jpeg);
+	background-size: cover;
+	background-position: center;
+	padding: 6rem 0;
+}
+
+.contact-text h1
+{
+	font-size: 5rem;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.c-text
+{
+	margin: 3rem 0;
+}
+
+.c-text h1
+{
+	font-size: 2.5rem;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.c-text p
+{
+	font-size: 16px;
+	color: #4d4d4d;
+	max-width: 700px;
+	width: 100%;
+	margin: 1rem auto;
+	text-align: center;
+}
+
+/*-------------------------contact-us------------------*/
+.contact
+{
+    padding: 50px 0;
+}
+
+.contact .form-control
+{
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 10px;
+}
+
+.contact button.btn
+{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #2666ff;
+    color: #ffffff;
+}
+
+.contact .title h3
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #2666ff;
+}
+
+.contact .title p
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: #4d4d4d;
+    line-height: 1.6;
+    margin: 0 0 40px;
+}
+
+.contact .content .info
+{
+    margin-top: 30px;
+}
+
+.contact .content .info i
+{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: #02434b;
+    margin-right: 20px;
+    text-align: center;
+    width: 20px;
+}
+
+.contact .content .info h4
+{
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.contact .content .info h4 span
+{
+    font-size: 13px;
+    font-weight: 300;
+    color: #4d4d4d;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px)
+{
+	.contact-text
+	{
+		padding: 4rem 0;
+	}
+
+	.contact-text h1
+	{
+		font-size: 3rem;
+	}
+
+	.c-text
+	{
+		margin: 2rem 0;
+	}
+
+	.c-text h1
+	{
+		font-size: 2rem;
+	}
+
+	.c-text p
+	{
+		font-size: 16px;
+		padding: 0 10px;
+	}
+
+	.contact
+	{
+	    padding: 30px 0;
+	}
+
+
+	form
+	{
+		margin-top: 2rem;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and  (max-width: 991px)
+{
+	.contact-text
+	{
+		padding: 4rem 0;
+	}
+
+	.contact-text h1
+	{
+		font-size: 3rem;
+	}
+
+	.c-text
+	{
+		margin: 2rem 0;
+	}
+
+	.c-text h1
+	{
+		font-size: 2rem;
+	}
+
+	.c-text p
+	{
+		font-size: 16px;
+		padding: 0 10px;
+	}
+
+
+}
+
+@media only screen and (min-width: 992px) and  (max-width: 1199px)
+{
+
+
+}

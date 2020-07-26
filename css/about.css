@@ -1,0 +1,338 @@
+
+.about-us
+{
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/poster.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 6rem 0;
+}
+
+.about-us h1
+{
+	font-size: 5rem;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.about-detail
+{
+	padding: 5rem 0;
+}
+
+.about
+{
+	padding: 5px;
+}
+
+.about-img
+{
+	text-align: center;
+}
+
+.about img
+{
+	width: 70%;
+	height: 500px;
+	box-shadow: -50px 50px 1px -20px #2666ff;
+	box-sizing: border-box;
+	border: 2px solid #2666ff;
+}
+
+.about h1
+{
+	font-size: 2.5rem;
+	color: #000;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	margin-top: 2rem;
+}
+
+.about p
+{	
+	font-size: 16px;
+	text-align: justify;
+	color: #4d4d4d;
+	margin-top: 2rem;
+}
+
+.about ul
+{
+	list-style-type: none;
+	margin-top: 2rem;
+}
+
+.about ul li
+{
+	margin-top: 10px;
+	color: #4d4d4d;
+	font-size: 16px;
+}
+
+.about ul li i
+{
+	color: #2666ff;
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+/*--------------------------section 2---------------*/
+.sec-about
+{
+	padding: 0;
+	display: inline-flex;
+}
+
+.choose
+{
+	width: 50%;
+	height: 32rem;
+}
+
+.choose img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.choose-detail
+{
+	padding: 4rem 4rem;
+	border: 2px solid #2666ff;
+	background-color: #2666ff;
+}
+
+.choose-detail h1
+{
+	font-size: 2rem;
+	color: #fff;
+	font-weight: bolder;
+}
+
+.choose-detail h3
+{
+	font-size: 1.4rem;
+	color: #fff;
+	font-weight: bolder;
+	margin-top: 1rem;
+}
+
+.choose-detail h3 span
+{
+	color: #000;
+}
+
+.choose-detail p
+{
+	font-size: 16px;
+	color: #fff;
+	text-align: justify;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px)
+{
+
+	/*-------------------------about us-----------------------*/
+	.about-us h1
+	{
+		font-size: 3rem;
+	}
+
+    .about-detail
+	{
+		padding: 3rem 0;
+	}
+
+	.about img
+	{
+		width: 85%;
+		height: 350px;
+		box-shadow: -30px 30px 1px -10px #2666ff;
+		border: 2px solid #2666ff;
+	}
+
+	.about h1
+	{
+		font-size: 2rem;
+		margin-top: 2rem;
+		text-align: center;
+	}
+
+	.about p
+	{	
+		font-size: 15px;
+		margin-top: 1.5rem;
+	}
+
+	/*--------------------------section 2----------------------*/
+	.sec-about
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.choose
+	{
+		width: 100%;
+		height: 22rem;
+	}
+
+	.choose-detail
+	{
+		padding: 1rem;
+		height: 100%;
+	}
+
+	.choose-detail h1
+	{
+		font-size: 1.5rem;
+	}
+
+	.choose-detail h3
+	{
+		font-size: 1rem;
+		margin-top: 0.8rem;
+	}
+
+	.choose-detail h3 span
+	{
+		color: #000;
+	}
+
+	.choose-detail p
+	{
+		font-size: 14px;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 768px) and  (max-width: 991px)
+{
+	/*-------------------------about us-----------------------*/
+    .about-detail
+	{
+		padding: 3rem 0;
+	}
+
+	.about img
+	{
+		width: 90%;
+		height: 450px;
+		box-shadow: -30px 30px 1px -10px #2666ff;
+		border: 2px solid #2666ff;
+	}
+
+	.about h1
+	{
+		font-size: 1.7rem;
+		margin-top: 0rem;
+	}
+
+	.about p
+	{	
+		font-size: 14px;
+		margin-top: 1rem;
+	}
+
+	.about ul
+	{
+		margin-top: 1rem;
+	}
+
+	.about ul li
+	{
+		margin-top: 5px;
+		font-size: 15px;
+	}
+
+	.about ul li i
+	{
+		font-size: 18px;
+	}
+
+	/*--------------------------section 2----------------------*/
+	.sec-about
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.choose
+	{
+		width: 100%;
+		height: 22rem;
+	}
+
+	.choose-detail
+	{
+		padding: 1rem;
+		height: 100%;
+	}
+
+	.choose-detail h1
+	{
+		font-size: 1.8rem;
+	}
+
+	.choose-detail h3
+	{
+		font-size: 1.2rem;
+		margin-top: 1rem;
+	}
+
+	.choose-detail h3 span
+	{
+		color: #000;
+	}
+
+	.choose-detail p
+	{
+		font-size: 16px;
+	}
+
+
+}
+
+@media only screen and (min-width: 992px) and  (max-width: 1199px)
+{
+	/*--------------------------section 2----------------------*/
+	.choose
+	{
+		width: 100%;
+		height: 32rem;
+	}
+
+	.choose-detail
+	{
+		padding: 3rem;
+	}
+
+	.choose-detail h1
+	{
+		font-size: 1.9rem;
+	}
+
+	.choose-detail h3
+	{
+		font-size: 1.3rem;
+		margin-top: 1rem;
+	}
+
+	.choose-detail h3 span
+	{
+		color: #000;
+	}
+
+	.choose-detail p
+	{
+		font-size: 16px;
+	}
+
+}

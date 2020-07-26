@@ -39,7 +39,7 @@
 
 	.text
 	{
-		top: 25%;
+		top: 15%;
 		left: 18%;
 		max-width: 500px;
 	}
@@ -51,7 +51,7 @@
 
 	.text p
 	{
-		margin: 5px 0px;
+		margin: 5px 3px;
 		font-size: 15px;
 		line-height: 28px;
 	}
@@ -59,8 +59,15 @@
 	.text h2
 	{
 		color: #e2e2e2;
-		font-size: 40px;
+		font-size: 30px;
 		font-weight: bolder;
+	}
+
+	.icons
+	{
+		position: absolute;
+		bottom: 13%;
+		left: 2%;
 	}
 
 	/*--------------------featured------------------*/
@@ -185,6 +192,18 @@
         margin: 0 auto 15px;
     }
 
+    /*------------------------------footer--------------------*/
+    .footer-detail
+	{
+		margin: 0 0rem;
+	}
+
+	.footer-detail h2
+	{
+		font-size: 1.4rem;
+		margin-top: 10px;
+	}
+    
 
 }
 
@@ -373,6 +392,34 @@
 	}
 
 
+	/*------------------------------footer--------------------*/
+    .footer-detail
+	{
+		margin: 0 0rem;
+	}
+
+	.footer-detail h2
+	{
+		font-size: 1.4rem;
+		margin-top: 10px;
+	}
+
+	.footer-detail p
+	{
+		font-size: 13px;
+	}
+
+	.footer-detail li i
+	{
+		font-size: 1.1rem;
+	}
+
+	.footer-detail ul li span
+	{
+		font-size: 0.9rem;
+	}
+
+
 }
 
 @media only screen and (min-width: 992px) and  (max-width: 1199px)
@@ -439,6 +486,33 @@
 		color: #e2e2e2;
 		font-size: 40px;
 		font-weight: bolder;
+	}
+
+	/*------------------------------footer--------------------*/
+    .footer-detail
+	{
+		margin: 0 0rem;
+	}
+
+	.footer-detail h2
+	{
+		font-size: 1.4rem;
+		margin-top: 10px;
+	}
+
+	.footer-detail p
+	{
+		font-size: 15px;
+	}
+
+	.footer-detail li i
+	{
+		font-size: 1.3rem;
+	}
+
+	.footer-detail ul li span
+	{
+		font-size: 1.1rem;
 	}
 
 
